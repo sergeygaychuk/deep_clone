@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in deep_copy.gemspec
+# Specify your gem's dependencies in deep_clone.gemspec
 gemspec
 
 group :test do

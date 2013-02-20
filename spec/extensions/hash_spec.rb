@@ -4,7 +4,7 @@ require 'spec_helper'
 describe Hash do
   let(:inner) { { a: 3, b: 4 } }
   let(:data) { { a: 1, b: 2, c: inner } }
-  let(:copy) { data.__deep_copy__ }
+  let(:copy) { data.__deep_clone__ }
 
   it "should return an equal hash" do
     data.should eq(copy)

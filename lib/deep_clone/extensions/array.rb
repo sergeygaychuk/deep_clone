@@ -1,5 +1,5 @@
 
-module DeepCopy
+module DeepClone
   module Extensions
     module Array
 
@@ -7,14 +7,14 @@ module DeepCopy
       # array.
       #
       # @example Get a deep copy of the array.
-      #   [ 1, 2, 3 ].__deep_copy__
+      #   [ 1, 2, 3 ].__deep_clone__
       #
       # @return [ Array ] The deep copy of the array.
-      def __deep_copy__
-        map { |value| value.__deep_copy__ }
+      def __deep_clone__
+        map { |value| value.__deep_clone__ }
       end
     end
   end
 end
 
-::Array.__send__(:include, DeepCopy::Extensions::Array)
+::Array.__send__(:include, DeepClone::Extensions::Array)

@@ -1,4 +1,4 @@
-# DeepCopy
+# DeepClone
 
 ![alt tag](http://i.qkme.me/356wcq.jpg)
 
@@ -6,7 +6,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'deep_copy'
+    gem 'deep_clone'
 
 And then execute:
 
@@ -14,13 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install deep_copy
+    $ gem install deep_clone
 
 ## Usage
 
-    require 'deep_copy'
+    require 'deep_clone'
 
-    {a: 1, b: 2, c: {d: 3}, e: [100, 101, 102]}.__deep_copy__
+    {a: 1, b: 2, c: {d: 3}, e: [100, 101, 102]}.__deep_clone__
 
 ## Contributing
 

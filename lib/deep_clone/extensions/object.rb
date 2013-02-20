@@ -1,5 +1,5 @@
 
-module DeepCopy
+module DeepClone
   module Extensions
     module Object
 
@@ -7,12 +7,12 @@ module DeepCopy
       # overridden.
       #
       # @example Deep copy the object.
-      #   1.__deep_copy__
+      #   1.__deep_clone__
       #
       # @return [ Object ] self.
-      def __deep_copy__; self; end
+      def __deep_clone__; self; end
     end
   end
 end
 
-::Object.__send__(:include, DeepCopy::Extensions::Object)
+::Object.__send__(:include, DeepClone::Extensions::Object)
