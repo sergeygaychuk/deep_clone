@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["sergey.gaychuk@gmail.com"]
   gem.description   = %q{Extends base classes for deep copy}
   gem.summary       = %q{Extends base classes for deep copy}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/sergeygaychuk/deep_copy"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}) { |f| File.basename(f) }
