@@ -1,5 +1,4 @@
-require "deep_copy/version"
 
-module DeepCopy
-  # Your code goes here...
-end
+require "deep_copy/version"
+require 'deep_copy/extensions'
+
