@@ -14,7 +14,7 @@ task :build do
 end
 
 task :install => :build do
-  system "sudo gem install deep_copy-#{DeepCopy::VERSION}.gem"
+  system "gem install deep_copy-#{DeepCopy::VERSION}.gem"
 end
 
 task :release => :build do
