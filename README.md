@@ -1,6 +1,6 @@
 # DeepCopy
 
-TODO: Write a gem description
+![alt tag](http://i.qkme.me/356wcq.jpg)
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'deep_copy'
+
+    {a: 1, b: 2, c: {d: 3}, e: [100, 101, 102]}.__deep_copy__
 
 ## Contributing
 
