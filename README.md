@@ -1,6 +1,6 @@
 # DeepClone
 
-![alt tag](http://i.qkme.me/356wcq.jpg)
+![deep clone](images/deeper.jpg)
 
 ## Installation
 
